@@ -6,11 +6,15 @@
     <meta name="description" content="Thy Doan's portfolio website" />
     <meta name="keywords" content="HTML" />
     <title>Thy Doan - Portfolio</title>
-    <link rel="icon" href="favicon.ico" />
+    <link rel="icon" type="image/png" href="imgs/kitty.png" />
   </head>
   <body>
     <header>
-      <span id="logo"><a href="index.html">Thy Doan</a></span>
+      <span id="logo"
+        ><svg width="20" height="20">
+          <circle cx="20" cy="20" r="20" fill="blue" /></svg
+        ><a href="index.html">Thy Doan</a></span
+      >
       <nav>
         <ul>
           <li><a href="about.html">About</a></li>
@@ -173,34 +177,42 @@
       <section id="skills">
         <h2>Skills</h2>
         <hr />
-        <div>
+
+        <my-skill>
           <label for="html-skill">HTML</label>
           <progress id="html-skill" max="100" value="90"></progress>
-        </div>
-        <div>
+        </my-skill>
+
+        <my-skill>
           <label for="css-skill">CSS</label>
           <progress id="css-skill" max="100" value="75"></progress>
-        </div>
-        <div>
+        </my-skill>
+
+        <my-skill>
           <label for="js-skill">JavaScript</label>
           <progress id="js-skill" max="100" value="50"></progress>
-        </div>
-        <div>
+        </my-skill>
+
+        <my-skill>
           <label for="java-skill">Java</label>
           <progress id="java-skill" max="100" value="80"></progress>
-        </div>
-        <div>
+        </my-skill>
+
+        <my-skill>
           <label for="py-skill">Python</label>
           <progress id="py-skill" max="100" value="70"></progress>
-        </div>
-        <div>
+        </my-skill>
+
+        <my-skill>
           <label for="C-C++-skill">C / C++</label>
           <progress id="C-C++-skill" max="100" value="80"></progress>
-        </div>
+        </my-skill>
+
         <p>Frameworks: React</p>
         <p>Tools: Git, VS Code, Linux</p>
       </section>
     </main>
+
     <footer>
       <hr />
       <p>This page was made with &hearts; by Thy Doan - &copy; 2026</p>
